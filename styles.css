@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: rgb(68, 84, 231);
+	background: rgb(214, 214, 214);
 }
 .container-header {
 	width: 100%;
@@ -12,15 +12,31 @@ body {
 	font-weight: 900;
 }
 
-.container-section-promo {
+.container-section {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	width: 70%;
+	width: 50%;
 	margin: 120px auto;
 }
 
-.item-article {
-	width: 30%;
-	height: 100px;
-	background: aquamarine;
+.container-section video {
+	width: 100%;
+}
+
+.container-section .item-article {
+	width: 100%;
+	background: white;
+	color: #025157;
+}
+
+.item-article > h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: x-large;
+	padding: 0px 10px;
+}
+
+.item-article > p {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding: 0px 10px;
 }
